@@ -1,0 +1,391 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("dennis.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 0%;
+}
+ul{
+    width: 100%;
+    float: top;
+    list-style-type: none;
+    top:0%;
+    background-color:rgb(2, 22, 2);
+    height: 90px;
+    background-repeat: no-repeat;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin:2%;
+    display: flexbox;
+}
+ul li a{
+    color: white;
+    padding: 10px 20px;
+    border:2px solid rgb(10, 54, 36);
+    border-radius: 15px;
+    background-color: rgba(0,0,0,0);
+    transition: 0.6s ease;
+    line-height: 30px;
+    font-size: 20px;
+    text-shadow: darkslategray;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: thistle;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: 6.5%;
+    margin-left: 5%;
+}
+.nav{
+    max-width:100%;
+    height:400px;
+    margin-top:0%;
+    text-align: center;
+}
+.logo{ 
+    margin-top: 0%;
+    height: 200px;
+}
+.line{
+    text-align: center;
+}
+.line h1,h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-left:5%;
+    margin-top:5%;
+}
+ul li.active a{
+    background-color: thistle;
+    color: black;
+}
+.phone{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    float: right;
+    background-attachment: fixed;
+    margin-right:5%;
+}
+#sec-1{
+    width: 100vw;
+    height: 600px;
+    margin: 20px 0px;
+    border: 0px solid whitesmoke;
+}
+.image-1{
+    float: left;
+    background-color:whitesmoke;
+    width: 350px;
+    height: 550px;
+    margin:10px 50px;
+    border:2px solid whitesmoke;
+}
+.image-1 img{
+    padding: 0px 0px;
+    width:100%;
+}
+.image-2{
+    float: left;
+    background-color:whitesmoke;
+    width: 350px;
+    height: 550px;
+    margin:10px 50px;;
+    border:2px solid whitesmoke;
+}
+.image-2 img{
+    padding: 0px 0px;
+    width: 100%;
+    
+}
+.image-3{
+    float: left;
+    background-color:whitesmoke;
+    width: 350px;
+    height: 550px;
+    margin:10px 50px;;
+    border:2px solid whitesmoke;
+}
+.image-3 img{
+    padding: 0px 0px;
+    width: 100%;
+}
+.deep h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    margin: 35px 70px;
+}
+.high h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    margin: 35px 70px;
+}
+.travel h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:green;
+    margin: 35px 70px;
+}
+.deep p{
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+    margin: 35px 70px;
+}
+.high p{
+    font-size: 20px;
+    font-family:cursive;
+    color:black;
+    margin: 35px 70px;
+}
+.travel p{
+    font-size: 20px;
+    font-family:cursive;
+    color:black;
+    margin: 35px 70px;
+}
+#sec-2{
+    width: 100vw;
+    height: 800px;
+    margin: 20px 0px;
+    border: 0px solid whitesmoke;
+}
+.image-4{
+    float: left;
+    background-color:whitesmoke;
+    width: 500px;
+    height: 750px;
+    margin:45px 85px;
+    border:2px solid whitesmoke;
+}
+.image-4 img{
+    padding: 0px 0px;
+    width:100%;
+}
+.ocean button{
+    border: lightgreen solid;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: teal;
+    display: inline-block;
+    font-size: 20px;
+    margin: 1px 50px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    
+
+}
+.ocean button:hover{
+    background-color:lightgreen;
+    color:black;
+}
+.image-5{
+    float: left;
+    background-color:whitesmoke;
+    width: 500px;
+    height: 750px;
+    margin:45px 90px;;
+    border:2px solid whitesmoke;
+}
+.image-5 img{
+    padding: 0px 0px;
+    width: 100%;
+    
+}
+.mountain button{
+    border:darkred solid;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: teal;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0.06px 60px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    
+
+}
+.mountain button:hover{
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+.ocean h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:yellowgreen;
+    margin: 35px 70px;
+}
+.mountain h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightseagreen;
+    margin: 35px 70px;
+}
+.ocean p{
+    font-size: 20px;
+    font-family: cursive;
+    color:black;
+    margin: 35px 70px;
+}
+.mountain p{
+    font-size: 20px;
+    font-family:cursive;
+    color:black;
+    margin: 35px 70px;
+}
+#sec-3{
+    width: 100vw;
+    height:500px;
+    background-image: url("joshua-earle-EqztQX9btrE-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.photography{
+    width: 100vw;
+    height: 300px;
+}
+.photography h2{
+    color: aquamarine;
+    text-align: center;
+    padding-top: 10%;
+    transition: 0.6s ease;
+    font-size: 25px;
+}
+.column{
+    width: 100vw;
+    height: 800px;
+}
+.picture{
+    width: 1200px;
+    height: 95%;
+    margin: 50px 70px ;
+    background-color:whitesmoke;
+}
+.picture img{
+    width: 100%;
+    height: 55%;
+}
+.bio{
+    width: 100%;
+    height: auto;
+    margin-top:3%;
+}
+.bio p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategray;
+    padding: 0% 5%;
+}
+.picture a{
+    border:0.5px solid black;
+    border-radius: 15px;
+    background-color:white;
+    color:lightslategray;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: teal;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px 50px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.picture a:hover{
+    background-color:lightslategray;
+    color:black;
+}
+#sec-4{
+    width: 100vw;
+    height:700px;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("css.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 1200px;
+    height: 400px;
+    padding: 150px 150px;
+}
+.form{
+    width: 1000px;
+    height: 400px;
+    padding:60px;
+    text-align:center ;
+
+}
+.form label{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    padding: 20px;
+}
+.form input#uname{
+    width:150px;
+    height:35px;
+    border: 1px solid blue;
+    border-radius: 40px ;
+    padding-left: 20px;
+}
+.form input#psw{
+    width:150px;
+    height:35px;
+    border: 1px solid blue;
+    border-radius: 40px ;
+    padding-left: 20px;
+}
+#gender{
+    width:130px;
+    height:35px;
+    border: 1px solid blue;
+    border-radius: 40px;
+    padding-left: 30px;
+}
+#gender option{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form input#sub{
+    width:150px;
+    height:35px;
+    border: 1px solid blue;
+    border-radius: 40px ;
+    padding-left: 15px;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+.form input#sub:hover{
+    background-color: teal;
+    color:black;
+}
